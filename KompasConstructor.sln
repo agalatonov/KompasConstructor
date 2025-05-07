@@ -1,10 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KompasConstructor.WebApi", "KompasConstructor.WebApi", "{83CCFFB7-5419-47C4-8693-CD1BCE040286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasConstructor.WebApi", "KompasConstructor.WebApi\KompasConstructor.WebApi.csproj", "{9814539D-82B6-4C71-BDD4-8947E847A650}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9814539D-82B6-4C71-BDD4-8947E847A650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9814539D-82B6-4C71-BDD4-8947E847A650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9814539D-82B6-4C71-BDD4-8947E847A650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9814539D-82B6-4C71-BDD4-8947E847A650}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9814539D-82B6-4C71-BDD4-8947E847A650} = {83CCFFB7-5419-47C4-8693-CD1BCE040286}
 	EndGlobalSection
 EndGlobal
