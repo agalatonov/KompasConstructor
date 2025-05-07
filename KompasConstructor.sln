@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KompasConstructor.WebApi", "KompasConstructor.WebApi", "{83CCFFB7-5419-47C4-8693-CD1BCE040286}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9F71D929-F78C-45BD-B2BE-838749DC4105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasConstructor.WebApi", "KompasConstructor.WebApi\KompasConstructor.WebApi.csproj", "{9814539D-82B6-4C71-BDD4-8947E847A650}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KompasConstructor.WebApi", "KompasConstructor.WebApi", "{6945C676-EFAE-4B6C-82FF-CE1BC12BFEEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasConstructor.WebApi", "src\KompasConstructor.WebApi\KompasConstructor.WebApi.csproj", "{F25129D2-98AB-481F-A636-9270F53617EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,15 +15,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9814539D-82B6-4C71-BDD4-8947E847A650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9814539D-82B6-4C71-BDD4-8947E847A650}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9814539D-82B6-4C71-BDD4-8947E847A650}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9814539D-82B6-4C71-BDD4-8947E847A650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25129D2-98AB-481F-A636-9270F53617EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25129D2-98AB-481F-A636-9270F53617EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25129D2-98AB-481F-A636-9270F53617EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25129D2-98AB-481F-A636-9270F53617EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9814539D-82B6-4C71-BDD4-8947E847A650} = {83CCFFB7-5419-47C4-8693-CD1BCE040286}
+		{6945C676-EFAE-4B6C-82FF-CE1BC12BFEEE} = {9F71D929-F78C-45BD-B2BE-838749DC4105}
+		{F25129D2-98AB-481F-A636-9270F53617EA} = {6945C676-EFAE-4B6C-82FF-CE1BC12BFEEE}
 	EndGlobalSection
 EndGlobal
