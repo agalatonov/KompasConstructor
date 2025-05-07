@@ -9,6 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KompasConstructor.WebApi", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasConstructor.WebApi", "src\KompasConstructor.WebApi\KompasConstructor.WebApi.csproj", "{F25129D2-98AB-481F-A636-9270F53617EA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KompasConstructor.UseCase", "KompasConstructor.UseCase", "{ABBE8E9A-EE95-4C94-A6D1-8CAD1F287424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasConstructor.UseCase", "src\KompasConstructor.UseCase\KompasConstructor.UseCase.csproj", "{6E791F86-C4E7-4D0F-B519-BDC6EC0FB674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasConstructor.Core", "KompasConstructor.Core\KompasConstructor.Core.csproj", "{1D59E9CB-53AB-4239-AD82-458244483C40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KompasConstruct.Core", "KompasConstruct.Core", "{26CA08DA-69C5-42BB-8EDC-3F8F7886708C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +27,14 @@ Global
 		{F25129D2-98AB-481F-A636-9270F53617EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F25129D2-98AB-481F-A636-9270F53617EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F25129D2-98AB-481F-A636-9270F53617EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E791F86-C4E7-4D0F-B519-BDC6EC0FB674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E791F86-C4E7-4D0F-B519-BDC6EC0FB674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E791F86-C4E7-4D0F-B519-BDC6EC0FB674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E791F86-C4E7-4D0F-B519-BDC6EC0FB674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D59E9CB-53AB-4239-AD82-458244483C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D59E9CB-53AB-4239-AD82-458244483C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D59E9CB-53AB-4239-AD82-458244483C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D59E9CB-53AB-4239-AD82-458244483C40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,5 +42,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6945C676-EFAE-4B6C-82FF-CE1BC12BFEEE} = {9F71D929-F78C-45BD-B2BE-838749DC4105}
 		{F25129D2-98AB-481F-A636-9270F53617EA} = {6945C676-EFAE-4B6C-82FF-CE1BC12BFEEE}
+		{ABBE8E9A-EE95-4C94-A6D1-8CAD1F287424} = {9F71D929-F78C-45BD-B2BE-838749DC4105}
+		{6E791F86-C4E7-4D0F-B519-BDC6EC0FB674} = {ABBE8E9A-EE95-4C94-A6D1-8CAD1F287424}
+		{1D59E9CB-53AB-4239-AD82-458244483C40} = {26CA08DA-69C5-42BB-8EDC-3F8F7886708C}
+		{26CA08DA-69C5-42BB-8EDC-3F8F7886708C} = {9F71D929-F78C-45BD-B2BE-838749DC4105}
 	EndGlobalSection
 EndGlobal
