@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\KompasConstructor.Core\KompasConstructor.Core.csproj" />
+    <ProjectReference Include="..\KompasConstructor.Core\KompasConstructor.Core.csproj" />
   </ItemGroup>
 
 </Project>
